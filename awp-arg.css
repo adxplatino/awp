@@ -1,0 +1,75 @@
+/*
+Theme Name: awp
+Theme URI: 
+Description: awp.
+Version: 2.0
+License: 
+*/
+
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+.cover-container {
+  max-width: 50.5em;
+}
+.cover {
+
+}
+#centrado{
+text-align: center;
+}
+.h1, h1 {
+    font-size: 1.5rem;
+}
+h1, h2, h3, h4, h5, h6{
+text-align: center;
+}
+.pagination {
+   justify-content: center;
+}
+
+a {
+    color: #dc3545;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover {
+    color: #dc3545;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.page-link:hover {
+    color: #333333;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: #af0e1d;
+  }
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #af0e1d;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #333;
+    background-color: #dc3545;
+    border-color: #af0e1d;
+}
