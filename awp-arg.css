@@ -32,13 +32,13 @@ text-align: center;
 }
 
 a {
-    color: #dc3545;
+    color: #0062cc;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
 a:hover {
-    color: #dc3545;
+    color: #0062cc;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -47,7 +47,7 @@ a:hover {
     color: #333333;
     text-decoration: none;
     background-color: #ffffff;
-    border-color: #af0e1d;
+    border-color: #024c9d;
   }
 .page-link {
     position: relative;
@@ -57,11 +57,11 @@ a:hover {
     line-height: 1.25;
     color: #333333;
     background-color: #fff;
-    border: 1px solid #af0e1d;
+    border: 1px solid #024c9d;
 }
 .page-item.active .page-link {
     z-index: 1;
     color: #333;
-    background-color: #dc3545;
-    border-color: #af0e1d;
+    background-color: #0062cc;
+    border-color: #024c9d;
 }
